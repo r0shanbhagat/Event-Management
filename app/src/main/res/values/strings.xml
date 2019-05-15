@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">EventManagement</string>
+    <string name="login_register">Login/Register</string>
+    <string name="enter_email_id">Please enter the email id.</string>
+    <string name="enter_valid_email_id">Please enter the valid email id.</string>
+    <string name="createEvent">Create Event</string>
+    <string name="updateEvent">Update Event</string>
+    <string name="selectDateTime">DateTime</string>
+    <string name="enter_event">please enter event name</string>
+    <string name="enter_event_date">please enter event date time</string>
+    <string name="error_msg">Oops! Something went wrong. Possibly with your Network connection. Please try again.</string>
+    <string name="no_data_found">No data found</string>
+    <string name="btnEdit">Edit</string>
+    <string name="eventCreated">Event Created Successfully.</string>
+    <string name="eventUpdated">Event Updated Successfully.</string>
+    <string name="eventDeleted">Event Removed Successfully.</string>
+    <string name="warning_message">Are you sure want to remove this event?</string>
+    <string name="sort_by_date">Sort By Date</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="sort_list_by_date">Sort List By Date</string>
+    <string name="done">Done</string>
+    <string name="select_start_date">Please select start date</string>
+    <string name="select_end_date">Please select end date</string>
+    <string name="filter_applied">Filter Applied Successfully.</string>
+    <string name="no_record_found">No Data Available in Range.</string>
+
+</resources>
