@@ -173,6 +173,7 @@ public class EventListingActivity extends AppCompatActivity {
                             }
                             if (null != mAdapter) {
                                 mAdapter.notifyDataSetChanged();
+                                showDataAvailable(true);
                             }
                         } else {
                             Toast.makeText(EventListingActivity.this, getString(R.string.no_record_found), Toast.LENGTH_LONG).show();

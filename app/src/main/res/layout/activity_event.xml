@@ -39,14 +39,23 @@
             android:orientation="vertical"
             android:padding="@dimen/dimen_ten">
 
-            <EditText
-                android:id="@+id/etEventName"
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:importantForAutofill="no"
-                android:inputType="text"
-                android:text="@={viewModel.eventTitle}"
-                tools:targetApi="o" />
+                android:hint="@string/event_title">
+
+
+                <EditText
+                    android:id="@+id/etEventName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:importantForAutofill="no"
+                    android:inputType="text"
+                    android:text="@={viewModel.eventTitle}"
+                    tools:targetApi="o" />
+
+            </android.support.design.widget.TextInputLayout>
+
 
             <Button
                 android:id="@+id/btnDateTime"

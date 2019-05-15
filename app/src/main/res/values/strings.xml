@@ -24,5 +24,7 @@
     <string name="select_end_date">Please select end date</string>
     <string name="filter_applied">Filter Applied Successfully.</string>
     <string name="no_record_found">No Data Available in Range.</string>
+    <string name="emailid">EmailId</string>
+    <string name="event_title">Event Title</string>
 
 </resources>
